@@ -64,7 +64,7 @@ img {
 
 .lead {
   font-size: 16px;
-  line-height: 1.8;
+  line-height: 2;
   margin-bottom: 30px;
 }
 
@@ -239,7 +239,6 @@ img {
 
 .works-img {
   background-color: #000;
-  transition: 1.5s;
 }
 
 .works-img img {
@@ -248,8 +247,7 @@ img {
 }
 
 .works-img:hover {
-  opacity: .6;
-  transition: 1.5s;
+  opacity: .8;
 }
 
 .works-name {
@@ -308,6 +306,7 @@ img {
   flex-wrap: wrap;
   max-width: 800px;
   margin: 0 auto;
+  align-items: center;
 }
 
 .profile-img {
@@ -326,7 +325,7 @@ img {
 
 .profile-body p {
   font-size: 15px;
-  line-height: 1.8;
+  line-height: 2;
 }
 
 .profile-body p:not(:last-child) {
