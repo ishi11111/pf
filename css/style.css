@@ -18,7 +18,9 @@ img {
   border-style: none;
 }
 
-
+.img_space{
+  margin-bottom: 50px;
+}
 
 .pc-only {
   display: block;
