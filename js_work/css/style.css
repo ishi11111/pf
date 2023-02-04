@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+body {
+    font-family: "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, sans-serif;
+    background-color: #FFF7EE;
+    width: 100%;
+    max-width: 1366px;
+}
+
+
+.wrapper h2 {
+    font-size: 30px;
+    margin-top: 25px;
+    margin-left: 38px;
+    font-family: 'Zen Maru Gothic', sans-serif;
+}
+
+img {
+    position: relative;
+}
+
+.character {
+    position: relative;
+}
+
+#container {
+    display: flex;
+}
+
+#kame {
+    cursor: pointer;
+}
+
+#kame img {
+    width: 180px;
+    height: 257px;
+    top: 73px;
+}
